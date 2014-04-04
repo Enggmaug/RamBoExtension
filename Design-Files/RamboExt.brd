@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 04/04/2014 12:15:36
+PCBNEW-BOARD Version 2 date 04/04/2014 12:20:44
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -7,6 +7,7 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 13A88001
+VisibleLayers 12A88001
 Links 104
 NoConn 0
 Di 101.5975 75.811379 192.448181 142.9083
@@ -61,7 +62,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFEFFFF
-PcbPlotParams (pcbplotparams (layerselection 304119809) (usegerberextensions false) (excludeedgelayer false) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference false) (plotvalue true) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ../Gerber/))
+PcbPlotParams (pcbplotparams (layerselection 304119809) (usegerberextensions true) (excludeedgelayer false) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference false) (plotvalue true) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ../Gerber/))
 $EndSETUP
 
 $EQUIPOT
