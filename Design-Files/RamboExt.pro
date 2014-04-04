@@ -1,4 +1,4 @@
-update=25/03/2014 17:44:59
+update=04/04/2014 07:55:48
 version=1
 last_client=cvpcb
 [general]
@@ -34,10 +34,10 @@ LibName10=dip_sockets
 LibName11=C:/Users/Ft050829/Downloads/all~/converted/transistor-power
 LibName12=D:/KiCAD-Libs-master/all~/converted/connect
 LibName13=con-molex
-LibDir=../../../KiCAD-Libs-master/misc_libs;C:/Users/Ft050829/Downloads/all~/converted
+LibDir=Librairies
 [eeschema]
 version=1
-LibDir=../../../KiCAD-Libs-master/misc_libs;../../../KiCAD-Libs-master/libraries
+LibDir=Librairies
 NetFmtName=
 RptD_X=0
 RptD_Y=100
