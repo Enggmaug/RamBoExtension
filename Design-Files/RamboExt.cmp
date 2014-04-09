@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 04/04/2014 07:55:53
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09/04/2014 20:20:04
 
 BeginCmp
 TimeStamp = /53221DDE;
@@ -208,6 +208,20 @@ TimeStamp = /5320CF36;
 Reference = P9;
 ValeurCmp = CONN_2;
 IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53443248;
+Reference = P10;
+ValeurCmp = PWM_Extension;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53443222;
+Reference = P11;
+ValeurCmp = FLEX_PWM;
+IdModule  = SIL-5;
 EndCmp
 
 BeginCmp
