@@ -43,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "9 apr 2014"
+Date "14 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -91,10 +91,6 @@ Wire Wire Line
 	6400 6250 6400 6100
 Wire Wire Line
 	4250 6150 3700 6150
-Wire Wire Line
-	5650 6150 5050 6150
-Wire Wire Line
-	5050 5950 5650 5950
 Wire Wire Line
 	2100 6900 2000 6900
 Wire Wire Line
@@ -366,8 +362,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 1200 5600 1150
 Wire Wire Line
-	5050 6050 5650 6050
-Wire Wire Line
 	4250 5950 3700 5950
 Wire Wire Line
 	3700 6050 3900 6050
@@ -612,17 +606,6 @@ F 3 "" H 3350 6050 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_3 K2
-U 1 1 53233A2B
-P 6000 6050
-F 0 "K2" V 5950 6050 50  0000 C CNN
-F 1 "SEL_THERM_3" H 6050 6250 40  0000 C CNN
-F 2 "" H 6000 6050 60  0001 C CNN
-F 3 "" H 6000 6050 60  0001 C CNN
-	1    6000 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_4X2 P5
 U 1 1 53233992
 P 4650 6100
@@ -631,7 +614,7 @@ F 1 "ANALOG_EXT" H 4800 5850 40  0000 C CNN
 F 2 "" H 4650 6100 60  0001 C CNN
 F 3 "" H 4650 6100 60  0001 C CNN
 	1    4650 6100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L GND #PWR011
@@ -1477,4 +1460,7 @@ Wire Wire Line
 Connection ~ 3550 7000
 Wire Notes Line
 	4250 6400 2700 6400
+NoConn ~ 5050 5950
+NoConn ~ 5050 6050
+NoConn ~ 5050 6150
 $EndSCHEMATC
